@@ -1,0 +1,26 @@
+.button{
+    border:none;
+    border-radius:0.5rem;
+    padding:1rem 1.5rem;
+    outline: none;
+    font-weight: 500;
+    margin:0.5rem 0;
+    cursor:pointer;
+}
+
+.button--large{
+    font-size:2rem;
+}
+
+.button--green{
+    background-color: #01A91C;
+    color:white;
+}
+
+.title{
+    font-size: 1.75rem;
+}
+
+.title--center{
+    text-align: center;
+}

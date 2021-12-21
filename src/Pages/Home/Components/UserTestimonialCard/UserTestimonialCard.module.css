@@ -1,0 +1,33 @@
+.userTestimonial{
+    padding:1rem;
+    width:450px;
+    min-height: 250px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0 #DDDDDD;
+}
+
+.userTestimonial__user{
+    display: flex;
+    align-items: center;
+}
+
+.userTestimonial__userImage{
+    width:4rem;
+    border-radius: 50%;
+    margin-right:1rem;
+}
+
+.userTestimonial__userName{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.userTestimonial__date{
+    font-size: 0.8rem;
+    color:gray;
+}
+
+.userTestimonial__testimonialText{
+    margin-top:0.5rem;
+    line-height: 1.4rem;
+}

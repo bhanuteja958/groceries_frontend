@@ -1,0 +1,33 @@
+.reasonCard{
+    text-align: center;
+    width:350px;
+    position: relative;
+    box-shadow: 0 0 4px 0 #DDDDDD;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+.reasonCard__icon{
+    height: 2.25rem;
+    margin:0.5rem 0;
+}
+
+.reasonCard__text{
+    line-height: 1.75rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin:0.5rem 0;
+}
+
+.reasonCard__number{
+    position: absolute;
+    top:0;
+    left:1rem;
+    background-color: #01A91C;
+    color:white;
+    padding:0.5rem 1rem;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 1.3rem;
+    transform: translateY(-50%);
+}

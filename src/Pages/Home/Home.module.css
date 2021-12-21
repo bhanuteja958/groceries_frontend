@@ -1,0 +1,46 @@
+.hero{
+    padding: 0 1rem;
+    min-height: 600px;
+    background-image: url("../../assets/images/hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.55);
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__main{
+    text-align: center;
+}
+
+.hero__headline{
+    font-size:5.5rem;
+    color:white;
+}
+
+.whyBuyHere{
+    padding: 1.5rem 1rem;
+}
+
+.whyBuyHere__reasons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    margin-top:3rem;
+}
+
+.testimonials{
+    padding: 1.5rem 1rem;
+}
+
+.testimonials__userTestimonials{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top:2.5rem
+}

@@ -1,0 +1,44 @@
+.footer{
+    padding:1.5rem 1rem;
+    background-color: #003509;
+    color:white;
+    display: grid;
+    align-items: flex-start;
+    justify-items: center;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.footer__logo{
+    height:3rem;
+}
+
+.footer__copyrightText{
+    margin-top: 0.5rem;
+}
+
+.footer__link{
+    display: block;
+    text-decoration: none;
+    color:white;
+    font-size:1.2rem;
+    margin-bottom:1rem;
+    font-weight: 500;
+}
+
+.footer__socialMediaLink{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+    font-size:1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer__socialMediaImage{
+    height:2.3rem;
+    margin-right:0.5rem;
+}
+
+.footer__socialMediaAddress{
+    font-weight:500;
+}
